@@ -1,2 +1,1 @@
-# email-service
-Email service using NYLAS
+# Nylas Email Service

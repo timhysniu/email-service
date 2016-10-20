@@ -1,0 +1,19 @@
+
+<div class="container">
+    <p>Views: {{views}}</p>
+
+    {{#each threads}}
+    <div class="list-group">
+        <a href="#" class="list-group-item">
+            <p class="list-group-item-text heading">
+                From: <b>{{participants}}</b>
+                {{#if unread}}
+                <span class="badge">unread</span>
+                {{/if}}
+            </p>
+            <h4 class="list-group-item-heading">{{subject}}</h4>
+            <p class="list-group-item-text">{{snippet}} ...</p>
+        </a>
+    </div>
+    {{/each}}
+</div>
