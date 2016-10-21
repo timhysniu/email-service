@@ -1,0 +1,24 @@
+{
+  "app": {
+    "projectName": "Nylas App",
+    "server": {
+      "hostname": "hysniu.com",
+      "port": 80,
+      "baseUrl": "http://hysniu.com"
+    },
+    "db": {
+      "mongoUrl": "mongodb://localhost/nylas"
+    },
+    "participant" : {
+      "email" : "timhysniu@hotmail.com"
+    }
+  },
+  "nylas" : {
+    "KEY": "e7lz4pokufy2u4ke3siidms44",
+    "SECRET": "olgqr3m2eq7mfl1er8s61rcr"
+  },
+  "agent": {
+    "email": "timhysniu@hotmail.com",
+    "name": "ABC Realtor.com"
+  }
+}
