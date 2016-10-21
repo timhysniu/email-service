@@ -2,8 +2,8 @@
   "app": {
     "projectName": "Nylas App",
     "server": {
-      "hostname": "hysniu.com",
-      "port": 80,
+      "hostname": "localhost",
+      "port": 3001,
       "baseUrl": "http://hysniu.com"
     },
     "db": {
