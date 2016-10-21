@@ -4,7 +4,7 @@
     "server": {
       "hostname": "localhost",
       "port": 3001,
-      "baseUrl": "http://hysniu.com"
+      "baseUrl": "http://hysniu.com/"
     },
     "db": {
       "mongoUrl": "mongodb://localhost/nylas"
