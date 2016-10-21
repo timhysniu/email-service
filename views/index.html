@@ -1,19 +1,8 @@
 
 <div class="container">
-    <p>Views: {{views}}</p>
-
-    {{#each threads}}
-    <div class="list-group">
-        <a href="#" class="list-group-item">
-            <p class="list-group-item-text heading">
-                From: <b>{{participants}}</b>
-                {{#if unread}}
-                <span class="badge">unread</span>
-                {{/if}}
-            </p>
-            <h4 class="list-group-item-heading">{{subject}}</h4>
-            <p class="list-group-item-text">{{snippet}} ...</p>
-        </a>
+    <div class="jumbotron">
+        <h1>Welcome to Nylas App</h1>
+        <p>I am able to search for lead emails and let you respond to them directly.</p>
+        <p>You will be able to do what you need without going to your email client.</p>
     </div>
-    {{/each}}
 </div>

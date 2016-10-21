@@ -1,6 +1,6 @@
 {
   "app": {
-    "projectName": "Nylas",
+    "projectName": "Nylas App",
     "server": {
       "hostname": "localhost",
       "port": 3001,
@@ -16,5 +16,9 @@
   "nylas" : {
     "KEY": "e7lz4pokufy2u4ke3siidms44",
     "SECRET": "olgqr3m2eq7mfl1er8s61rcr"
+  },
+  "agent": {
+    "email": "timhysniu@hotmail.com",
+    "name": "ABC Realtor.com"
   }
 }
