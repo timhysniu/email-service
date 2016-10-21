@@ -1,3 +1,4 @@
+'use strict'
 const config = require('config');
 const nylas = require('nylas');
 const _ = require('underscore');

@@ -1,7 +1,6 @@
+'use strict'
 var _ = require('underscore');
 var app = require('../server');
-
-console.log(app)
 
 var homeRoute = {
     method: 'GET',
